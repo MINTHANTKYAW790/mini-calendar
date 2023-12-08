@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    background-color: #ad084f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+.calendar-container {
+    width: 290px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    overflow: hidden;
+}
+.blank {
+    width: 100%;
+    height: 50px;
+    background-color: #811719;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px dotted gray;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.7);
+}
+.c1 {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+}
+.c2 {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+}
+.month {
+    margin: 0;
+    width: 100%;
+    font-size: 40px;
+    font-family: cursive;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+}
+.day {
+    margin: 0;
+    font-size: 40px;
+}
+.date {
+    padding: 0;
+    margin: 0;
+    font-size: 100px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-weight: bold;
+}
+.year {
+    margin: 0;
+    font-size: 20px;
+    margin: 0;
+}
